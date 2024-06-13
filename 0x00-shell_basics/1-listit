@@ -1,3 +1,2 @@
-./1-listit
-Applications Documents Dropbox Movies Pictures
-Desktop Downloads Library Music Public
+#!/bin/bash
+./1-listit Applications Documents   Dropbox Movies Pictures Desktop Downloads Library Music Public
