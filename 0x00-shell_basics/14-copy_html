@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name "*.html" -type f -newer ../ -o ! -e ../\!(\*) -exec cp -vu {} ../ \;
+cp -u $(find . -maxdepth 1 -name "*.html") ..
