@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a1p | grep -v ^./|../ | sort | tr n ,
+ls -d .*/ | sort -V | cat -v; ls -a | grep ^[^./] | sort -d
