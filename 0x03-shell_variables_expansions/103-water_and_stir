@@ -1,2 +1,2 @@
 #!/bin/bash
-printf '%d\n' "$(( $(echo "ibase=water; ${WATER}" | bc) + $(echo "ibase=stir; ${STIR}" | bc) ))"
+printf '%d\n' "$(( 10#${WATER} + 10#${STIR} ))" | tr '0-9' 'waterstir' | tr -d '\n'
