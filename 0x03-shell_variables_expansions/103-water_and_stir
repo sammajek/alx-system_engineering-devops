@@ -1,3 +1,2 @@
 #!/bin/bash
 printf '%d\n' "$(( $(echo "ibase=water; ${WATER}" | bc) + $(echo "ibase=stir; ${STIR}" | bc) ))"
-
