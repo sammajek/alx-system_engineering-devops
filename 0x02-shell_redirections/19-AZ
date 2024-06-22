@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "A cat and a car" | ./19-AZ
+tr 'Ac' 'Ze'
